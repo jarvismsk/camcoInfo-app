@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CamcoInfo",
-    "slug": "CamcoInfo",
+    "slug": "camcoinfo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jarvismsk.camcoinfo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f84e8606-ee4d-444e-81db-a4e708379e93"
+      }
+    },
+    "owner": "jarvismsk"
   }
 }
